@@ -1,4 +1,4 @@
-package begginner;
+package Group_Questions;
 
 import java.util.ArrayList;
 import java.util.Arrays;

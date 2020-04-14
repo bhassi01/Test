@@ -12,8 +12,11 @@ public class Arraylist1 {
 
 		Student st1 = new Student(2, "Akash", 5);
 		Student st2 = new Student(4, "Bhassi", 9);
+		 System.out.println(st1);
+		 System.out.println(st2);
 
 		AL.add(new Student(3, "Ravi", 8));
+		 
 		AL.add(st1);
 		AL.add(st2);
 
@@ -25,12 +28,12 @@ public class Arraylist1 {
 		for (Object al : AL) {
 			System.out.println(al);}
 
-		for(Object ar:arr)
+		//for(Object ar:arr)
 		{System.out.println("---------------------printing arr----");
 		System.out.println(arr);}
-		for(Object ar:arr)
+		//for(Object ar:arr)
 		{System.out.println("---------------------printing ar----");
-		System.out.println(ar);}
+		System.out.println(arr);}
 
 
 	}
