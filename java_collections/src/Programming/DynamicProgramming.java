@@ -5,12 +5,13 @@ import java.util.Scanner;
 public class DynamicProgramming {
 
 	public static int  no_of_ways( int n) {
-
+		System.out.println("Putting ti git test");
 		if (n==1 ||n==2)
 			return 1;
 		if (n==3)
 			return 2;
 		else return no_of_ways(n-3)+no_of_ways(n-1);
+		
 	}
 
 
