@@ -1,9 +1,14 @@
 package begginner;
 
+import java.util.Arrays;
+import java.util.Collections;
+import java.util.HashSet;
+import java.util.List;
+import java.util.Set;
 import java.util.concurrent.TimeUnit;
 
 public class Sort_column {
-	 static int [][] arr= new int [][] {{1,2,10},{3,4,20},{5,6,30},{6,7,40},{7,8,50}};
+	 static String [][] arr= new String [][] {{"1","Tuffey","Dog"},{"2","Oscar","Cat"},{"3","Radd","Rabbit"}};
 	  static int row = arr.length;
 	  static int column = arr[0].length;
 	 
@@ -23,11 +28,21 @@ public class Sort_column {
 			 
 		 }
 		 
-		 System.out.println(System.currentTimeMillis());
-		 for (long t=System.nanoTime()+TimeUnit.SECONDS.toNanos(10);t>System.nanoTime();)
-		 {}
+		List<String[]>al= Arrays.asList(arr);
+		
+		System.out.println(al);
 		 
-		  System.out.println(System.nanoTime());
+//		 Set set =new HashSet();
+//		 Collections.addAll(set, Arrays.toString(arr));
+//		 System.out.println(set);
+//		 
+		 
+		//---- code for  wait without  waits
+//		 System.out.println(System.currentTimeMillis());
+//		 for (long t=System.nanoTime()+TimeUnit.SECONDS.toNanos(10);t>System.nanoTime();)
+//		 {}
+//		 
+//		  System.out.println(System.nanoTime());
 		 
 	 } 
 

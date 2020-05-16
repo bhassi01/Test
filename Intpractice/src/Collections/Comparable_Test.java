@@ -17,7 +17,7 @@ public class Comparable_Test implements Comparable<Comparable_Test> {
 		this.name = name;
 		this.salary = salary;
 	}
-	 @Override
+	
 	    public int compareTo(Comparable_Test ob) {
 	        return this.getId() - ob.getId();
 	    }

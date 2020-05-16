@@ -12,6 +12,7 @@ public class shift_0 {
 	public static  void main (String args[])
 	{
 		Arrays.sort(a,0,a.length);
+		
 	for (int i=a.length-1;i>=0;i--)
 	{
 		b[t]=a[i];
