@@ -1,0 +1,127 @@
+------------JAVA theory --Interview Questions----
+
+1-Java-
+-What is JVM,JRE,JDK?
+-Datatypes and the memory usage.
+-OOPS basics
+-What is class and object?
+-Architecture of execution-static pool, method area, binding parameter, stack, heap memory?
+-What is static in Java?
+-What is static block in java,how is it different from static main method?
+-Pre and post increment/decrement?
+-Call by refernce and call by value- Why java only supports call by value only ?
+-How many ways can we call a static method in the same class?
+-Can we call a nonstatic method in a static method , how?
+-Local and Global variable  assignment and usage?-Ravi's String  question to be referred?
+
+
+2-What is a constructor ?
+-Types of constructor?
+-If we have two user defined constructors in a class?
+-In above questions can you call both the constructors or use both constructors ?
+-Does abstarct class have constructor?If Yes why, because they do not provide implementation?
+-Can we make constructors final?
+-can we override constructors?
+
+
+
+3-What is overloading ,overiding ,Casting?
+-can you overload static methods?
+-can you override static methods?
+-can we overload main method?If yes how system determines which is the actual main method from where execution needs to be started?\
+-what does overiding need?
+-What is polymorphism?
+-What is casting?
+-Explain comlpile time polmoryphism and run time polymorphism?
+-Explain static binding and dynamic binding?
+-Can we change scope of overridden methods in subclass (widening)?
+-Explain functioning of upcasting, downcasting ?
+-What is Class Cast Exception ?
+-Can we overide a protected method an make it private in child class?
+
+
+
+4-Abstraction
+-what is abstarction?
+-what is difference between abstarction and encapsulation?
+-Can a non abstarct class have an abstarct method?
+-Can an abstarct class have noon abstarct method?
+-Can we instantiate an abstarct class?Explain?
+-Can an abstarct class have constructors?
+
+
+
+
+5-What is encapsulation?
+-What are different scopes of different access specifiers?
+
+
+6--What is Interface?
+-Can we have non abstarct methods in an interface?
+-"TBC"-implementation of Interface practaically
+
+
+7-String Class?
+-What is string ?
+-differnce in memory allocation when assigned using new/String operator/ref variable?
+-String builder/String Buffer/String differences?
+-Commonly used methods in String builder/String Buffer/String.
+-Difference between "equals" and "==" method?
+
+8--Exceptions
+-What are exceptions?
+-What is an error , how is it differnt from an ecxception?
+-Which is the top parent class for ecxceptions?
+-In how many ways can we handle  exceptions?
+-Difference between Throws and Throwable?
+-Whats is finally block?
+-Can we have try without catch block?
+-What is final, finally, dinalize in java?
+-Throwable class and exception hierarchy?
+-What is generic exception catcher ?
+
+
+9-Collections
+-Collections Hierarchy?
+-Common collection methods?
+-Sorting in collections?
+-Comparator Intaeface, Comaparable Intaeface difference  and  uses
+
+
+10-ArrayList and properties?
+-What is array list a class or interface?
+-Properties of array list?
+-common methods in array list?
+-In how many ways can you print an arraylist?
+
+11-Linked List
+-Properties of linked list?
+-Usage of linked list?
+-Difference between linked list and arraylist?
+
+
+12-Other Collections-
+-What is MAP?
+-Difference between Hashmap and Set?
+-Difference between Set and List?
+-Properties of Set?
+-How do we compare objects in Java?
+
+
+13-Other Topics-
+-Wrapper Class?
+-What is  narrowing?
+-What is widening?
+-What are generics , why is it used?
+
+14-Thread-
+-What is difference between thread and  process?
+-What is thread life cycle?
+-What are two ways of using thread?
+-Why runnale interface is used if we can extend Thread class and use it ?
+
+15-File Handling-
+
+
+
+
