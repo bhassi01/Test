@@ -70,13 +70,13 @@
 
 8--Exceptions
 -What are exceptions?
--What is an error , how is it differnt from an ecxception?
--Which is the top parent class for ecxceptions?
+-What is an error , how is it different from an exception?
+-Which is the top parent class for exceptions?
 -In how many ways can we handle  exceptions?
 -Difference between Throws and Throwable?
 -Whats is finally block?
 -Can we have try without catch block?
--What is final, finally, dinalize in java?
+-What is final, finally, finalize in java?
 -Throwable class and exception hierarchy?
 -What is generic exception catcher ?
 
@@ -85,10 +85,15 @@
 -Collections Hierarchy?
 -Common collection methods?
 -Sorting in collections?
--Comparator Intaeface, Comaparable Intaeface difference  and  uses
+-Comparator Interface, Comaparable Interface difference  and  uses?
 
 
-10-ArrayList and properties?
+
+
+10- Array,ArrayList and properties?
+-What is an array?
+-Methods of intialisation of array.(Single and MultoDimensional array)
+-What is the initial size of an arraylist?By what factor does it increase in size?
 -What is array list a class or interface?
 -Properties of array list?
 -common methods in array list?
